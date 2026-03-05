@@ -21,7 +21,6 @@ frontend/test-results/
 
 # IDE
 .idea/
-.vscode/
 *.swp
 *.swo
 *~
@@ -31,8 +30,6 @@ frontend/test-results/
 Thumbs.db
 
 # Environment
-.env
-.env.*
 !.env.example
 
 # Build artifacts
@@ -42,3 +39,8 @@ dist/
 
 # MCP registry tokens
 .mcpregistry_*
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
+node_modules
